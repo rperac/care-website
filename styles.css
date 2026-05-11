@@ -756,12 +756,9 @@ textarea { resize: vertical; }
 }
 
 .contact-section {
-  position: relative;
   align-items: start;
   border-top: 1px solid var(--line);
-  overflow: hidden;
 }
-.contact-section::after,
 .cta-band .container::after {
   content: "";
   width: clamp(52px, 7vw, 86px);
@@ -769,11 +766,6 @@ textarea { resize: vertical; }
   background: url("assets/logos/care-favicon.svg") center / contain no-repeat;
   opacity: 0.08;
   pointer-events: none;
-}
-.contact-section::after {
-  position: absolute;
-  right: clamp(20px, 6vw, 72px);
-  bottom: clamp(18px, 4vw, 42px);
 }
 .contact-details {
   display: grid;
@@ -1143,8 +1135,7 @@ tr:last-child td { border-bottom: 0; }
   .cta-band .container {
     display: block;
   }
-  .cta-band .container::after,
-  .contact-section::after {
+  .cta-band .container::after {
     display: none;
   }
   .cta-band .button { margin-top: 20px; }
