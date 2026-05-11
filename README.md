@@ -32,3 +32,7 @@ python3 -m http.server 4173
 ```
 
 Then visit `http://127.0.0.1:4173/index.html`.
+
+## GitHub Pages
+
+This repository deploys from `main` using GitHub Actions. In GitHub, set Pages source to **GitHub Actions** under repository Settings, then each push to `main` publishes the static site.
