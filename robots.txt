@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://careconstruction.com.au/sitemap.xml
