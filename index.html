@@ -16,7 +16,8 @@
     <meta property="og:url" content="https://careconstruction.com.au/index.html" />
     <meta property="og:image" content="https://careconstruction.com.au/assets/care-photos/core-drilling.png" />
     <meta name="twitter:card" content="summary_large_image" />
-    <link rel="icon" href="assets/original-site/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="assets/logos/care-favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="assets/logos/care-favicon-512px.png" />
     <link rel="preload" as="image" href="assets/logos/logo-hero.svg" />
     <link rel="preload" as="image" href="assets/care-photos/core-drilling.png" />
     <link rel="stylesheet" href="styles.css" />
@@ -291,18 +292,25 @@
     </main>
 
     <footer class="site-footer">
-      <div>
-        <img src="assets/logos/logo-hero.svg" alt="CARE" />
-        <p>Engineering knowledge on the tools.</p>
+      <div class="footer-main">
+        <a class="footer-brand" href="index.html" aria-label="CARE home">
+          <img src="assets/logos/care-favicon-white.svg" alt="CARE" />
+          <span>Engineering knowledge on the tools.</span>
+        </a>
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="projects.html">Projects</a>
+          <a href="index.html#contact">Contact</a>
+        </nav>
+        <div class="footer-contact" aria-label="CARE contact details">
+          <a href="tel:+61439766557">0439 766 557</a>
+          <a href="mailto:info@careconstruction.com.au">info@careconstruction.com.au</a>
+        </div>
       </div>
-      <nav aria-label="Footer navigation">
-        <a href="services.html">Services</a>
-        <a href="service-scanning-coring-cutting.html">Scanning, Coring, Cutting &amp; Preparation</a>
-        <a href="service-concrete-corrosion-rehabilitation.html">Concrete &amp; Corrosion Rehabilitation</a>
-        <a href="service-hardened-concrete-sampling.html">Hardened Concrete Sampling</a>
-        <a href="index.html#contact">Contact</a>
-      </nav>
-      <p>© 2026 CARE Concrete Repair. All rights reserved.</p>
+      <div class="footer-bottom">
+        <p>© 2026 CARE Concrete Repair. All rights reserved.</p>
+      </div>
     </footer>
     <script src="script.js"></script>
   </body>
